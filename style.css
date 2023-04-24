@@ -1,0 +1,32 @@
+/*imports*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+/*clases*/
+.cab{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+mix-blend-mode: normal;
+justify-content: space-between;
+}
+.cabimg{
+width: 45px;
+height: 45px;
+border-radius: 180px;
+}
+.cabtxt{
+display: flex;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+gap: 40px;
+color: white;
+}
+.infos{
+    border-top: 0.5px solid white;
+}
+/*tags*/
+
+body{
+    background: #3C4254;
+}
